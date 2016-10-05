@@ -130,13 +130,6 @@
       "baseURL": "src/browser"
     },
     "dependencies": {
-      "@angular/forms": "npm:@angular/forms@^2.0.0",
-      "@angular/http": "npm:@angular/http@^2.0.0",
-      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^2.0.0",
-      "@angular/router": "npm:@angular/router@^3.0.0",
-      "core-js": "npm:core-js@^2.4.0",
-      "es6-shim": "github:es-shims/es6-shim@^0.35.1",
-      "reflect-metadata": "npm:reflect-metadata@^0.1.8",
       "scss": "github:KevCJones/plugin-scss@^0.2.11",
       "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.6.0",
       "text": "github:systemjs/plugin-text@^0.0.8"
@@ -146,10 +139,6 @@
       "ts": "github:frankwallis/plugin-typescript@^5.0.1"
     },
     "peerDependencies": {
-      "@angular/common": "npm:@angular/common@^2.0.0",
-      "@angular/compiler": "npm:@angular/compiler@^2.0.0",
-      "@angular/core": "npm:@angular/core@^2.0.0",
-      "@angular/platform-browser": "npm:@angular/platform-browser@^2.0.0",
       "assert": "github:jspm/nodelibs-assert@^0.2.0-alpha",
       "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
       "child_process": "github:jspm/nodelibs-child_process@^0.2.0-alpha",
@@ -169,80 +158,6 @@
       "zone.js": "npm:zone.js@^0.6.21"
     },
     "overrides": {
-      "npm:@angular/common@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/compiler@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/core@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/http@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/platform-browser-dynamic@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/platform-browser@2.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        }
-      },
-      "npm:@angular/router@3.0.0": {
-        "meta": {
-          "src/*.js": {
-            "deps": [
-              "reflect-metadata",
-              "zone.js"
-            ]
-          }
-        },
-        "map": {
-          "@angular/router": ".",
-          "./testing": "./bundles/router-testing.umd.js"
-        }
-      },
       "npm:debug@2.2.0": {
         "main": "browser.js",
         "jspmNodeConversion": false,
@@ -271,15 +186,6 @@
       "npm:ms@0.7.1": {
         "jspmNodeConversion": false,
         "format": "cjs"
-      },
-      "npm:reflect-metadata@0.1.8": {
-        "jspmNodeConversion": false,
-        "map": {
-          "crypto": {
-            "node": "@node/crypto",
-            "default": "@empty"
-          }
-        }
       },
       "npm:sass.js@0.9.12": {
         "map": {
