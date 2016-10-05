@@ -14,7 +14,7 @@ SystemJS.config({
     "paths": {
       "npm:": "jspm_packages/npm/",
       "github:": "jspm_packages/github/",
-      "@uiuxengineering/app/": "app/"
+      "src/browser/app/": "app/"
     }
   },
   "devConfig": {
@@ -201,7 +201,7 @@ SystemJS.config({
       }
     },
     "app": {
-      "main": "@uiuxengineering/main",
+      "main": "main",
       "defaultExtension": "ts",
       "format": "commonjs",
       "meta": {
