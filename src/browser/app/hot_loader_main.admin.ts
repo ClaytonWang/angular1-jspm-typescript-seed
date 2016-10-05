@@ -1,4 +1,4 @@
-import './main';
+import './main.admin';
 
 var htmlTag = document.getElementsByTagName('html')[0];
 var noAngularDOM;
