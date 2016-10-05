@@ -4,7 +4,7 @@ import * as angular from 'angular';
  * IMPORTANT:
  *
  * layoutModule must be injected here to use
- * ui.router sub vuew
+ * ui.router sub view
  */
 import { layoutModule } from '../layouts/index';
 

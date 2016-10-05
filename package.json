@@ -135,6 +135,7 @@
       "angular-route": "github:angular/bower-angular-route@^1.5.8",
       "angular-ui-router": "github:angular-ui/angular-ui-router-bower@^0.3.1",
       "angulartics-google-analytics": "npm:angulartics-google-analytics@^0.2.1",
+      "lodash": "npm:lodash@^4.16.3",
       "normalize.css": "github:necolas/normalize.css@^5.0.0",
       "scss": "github:KevCJones/plugin-scss@^0.2.11",
       "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.6.0",
@@ -237,6 +238,12 @@
         ]
       },
       "npm:lodash@4.15.0": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
+      },
+      "npm:lodash@4.16.3": {
         "map": {
           "buffer": "@empty",
           "process": "@empty"

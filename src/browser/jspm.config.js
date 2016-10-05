@@ -52,7 +52,7 @@ SystemJS.config({
   },
   packages: {
     "app": {
-      "main": "main",
+      "main": "main.admin",
       "defaultExtension": "ts",
       "format": "commonjs",
       "meta": {
@@ -111,6 +111,7 @@ SystemJS.config({
     "crypto": "github:jspm/nodelibs-crypto@0.2.0-alpha",
     "events": "github:jspm/nodelibs-events@0.2.0-alpha",
     "fs": "github:jspm/nodelibs-fs@0.2.0-alpha",
+    "lodash": "npm:lodash@4.16.3",
     "normalize.css": "github:necolas/normalize.css@5.0.0",
     "os": "github:jspm/nodelibs-os@0.2.0-alpha",
     "path": "github:jspm/nodelibs-path@0.2.0-alpha",
