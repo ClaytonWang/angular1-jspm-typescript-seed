@@ -26,4 +26,3 @@ angular.element(document).ready(() => {
   });
 });
 
-export {modules};
