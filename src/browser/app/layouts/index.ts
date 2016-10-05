@@ -1,8 +1,8 @@
 import * as angular from 'angular';
-import {layoutAdminModule} from './layout.admin/index';
+import {adminModule} from './admin.app/admin.app.module';
 
 let layoutModule = angular.module('app.layouts', [
-    layoutAdminModule.name
+    adminModule.name
 ]);
 
 export {layoutModule};

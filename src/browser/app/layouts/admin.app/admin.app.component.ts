@@ -1,11 +1,11 @@
-import template from './app.html!text';
+import template from './admin.app.html!text';
 
 
-let appComponent = ()=>{
+let adminComponent = ()=>{
 	return {
 		template, // because we have a variable name template we can use the shorcut here
 		restrict: 'E'
 	};
 };
 
-export {appComponent};
+export {adminComponent};

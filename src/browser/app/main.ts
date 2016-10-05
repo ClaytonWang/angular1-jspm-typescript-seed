@@ -11,14 +11,14 @@ import 'angular-route';
 /**
  * app directive that contains the whole application.
  */
-import {appModule} from './modules/index';
+import { modules } from './modules/index';
 
 angular.element(document).ready(() => {
 
   var container = document.getElementById('app-container');
 
   angular.bootstrap(container, [
-    appModule.name,
+    modules.name,
     'ngAnimate',
     'ngRoute',
     'ui.router'], {
@@ -26,4 +26,4 @@ angular.element(document).ready(() => {
   });
 });
 
-export {appModule};
+export {modules};
