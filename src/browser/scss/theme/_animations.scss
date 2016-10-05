@@ -1,0 +1,20 @@
+@mixin trans($prop, $type, $time, $delay:0s) {
+    -webkit-transition: $time $type $prop $delay;
+    -moz-transition: $time $type $prop $delay;
+    transition: $time $type $prop $delay;
+}
+.ix-animate {
+    @include trans(all, ease, .3s, .2s);
+    &.ng-enter {
+      opacity: 0;
+    }
+    &.ng-enter-active {
+      opacity: 1;
+    }
+    &.ng-leave {
+      display: none;
+    }
+    .ng-leave.ng-leave-active {
+      opacity: 1;
+    }
+}

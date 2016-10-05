@@ -25,6 +25,7 @@ build/Release
 /node_modules/
 /typings/
 /src/browser/jspm_packages/
+/src/browser/node_modules/
 /test-reports
 
 # Users Environment Variables

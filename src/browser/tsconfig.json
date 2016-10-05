@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "angular": [
+        "jspm_packages/github/angular/bower-angular@1.5.8/index.js"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "target"
+  ]
+}

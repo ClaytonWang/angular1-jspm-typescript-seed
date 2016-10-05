@@ -1,0 +1,53 @@
+//@import '../../../scss/styleguide_variables';
+
+$layout-home-nav-width: 159px;
+
+// Home Layout
+//
+// Markup:
+// <div style="layout-home"></div>
+//
+// Styleguide 5.1
+.layout-home {
+
+  padding: 20px;
+
+  header {
+    border-bottom: 1px solid #7e7e7e;
+
+    .logo {
+      width: 124px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .layout-label {
+      line-height: 50px;
+    }
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  // Over-ride navbar
+  //
+  // Styleguide 5.2
+  .navbar {
+
+    width: $layout-home-nav-width;
+    height: 100%;
+    float: left;
+
+    .nav-links {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+
+  .layout-content-container {
+    position: absolute;
+    left: $layout-home-nav-width;
+  }
+
+}

@@ -15,3 +15,9 @@ if ((!System.hotReloader)) {
     console.log('systemjs-hot-reloader enabled');
   });
 }
+
+export function __unload() {
+  htmlTag = document.getElementsByTagName('html')[0];
+  htmlTag.remove();
+  document.body.appendChild(noAngularDOM.cloneNode(true));
+}

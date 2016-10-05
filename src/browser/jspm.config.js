@@ -98,6 +98,12 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
+    "angular": "github:angular/bower-angular@1.5.8",
+    "angular-animate": "github:angular/bower-angular-animate@1.5.8",
+    "angular-route": "github:angular/bower-angular-route@1.5.8",
+    "angular-ui-router": "github:angular-ui/angular-ui-router-bower@0.3.1",
+    "angulartics": "npm:angulartics@1.2.1",
+    "angulartics-google-analytics": "npm:angulartics-google-analytics@0.2.1",
     "assert": "github:jspm/nodelibs-assert@0.2.0-alpha",
     "buffer": "github:jspm/nodelibs-buffer@0.2.0-alpha",
     "child_process": "github:jspm/nodelibs-child_process@0.2.0-alpha",
@@ -105,6 +111,7 @@ SystemJS.config({
     "crypto": "github:jspm/nodelibs-crypto@0.2.0-alpha",
     "events": "github:jspm/nodelibs-events@0.2.0-alpha",
     "fs": "github:jspm/nodelibs-fs@0.2.0-alpha",
+    "normalize.css": "github:necolas/normalize.css@5.0.0",
     "os": "github:jspm/nodelibs-os@0.2.0-alpha",
     "path": "github:jspm/nodelibs-path@0.2.0-alpha",
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
@@ -400,6 +407,21 @@ SystemJS.config({
         "inherits": "npm:inherits@2.0.3",
         "hash.js": "npm:hash.js@1.0.3",
         "brorand": "npm:brorand@1.0.6"
+      }
+    },
+    "github:angular-ui/angular-ui-router-bower@0.3.1": {
+      "map": {
+        "angular": "github:angular/bower-angular@1.5.8"
+      }
+    },
+    "github:angular/bower-angular-animate@1.5.8": {
+      "map": {
+        "angular": "github:angular/bower-angular@1.5.8"
+      }
+    },
+    "github:angular/bower-angular-route@1.5.8": {
+      "map": {
+        "angular": "github:angular/bower-angular@1.5.8"
       }
     }
   }
